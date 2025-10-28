@@ -28,6 +28,18 @@ main {
     margin-bottom: 10px;
 }
 
+.category-tag {
+    background: rgb(244, 208, 78);
+    text-decoration: none;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: black;
+    width: 60px;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+
 .userinfo {
     display: flex;
     align-items: center;
