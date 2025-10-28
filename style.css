@@ -1,20 +1,24 @@
+:root {
+ --main-bg-color: rgb(244, 208, 78);
+}
+
 body {
-    background: rgb(244, 208, 78);
+    background: var(--main-bg-color);
     font-family: "Figtree", sans-serif;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 95vh;
+    min-height: 95vh;
 }
 
 main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 522px;
-    width: 384px ;
+    min-height: 522px;
+    max-width: 384px ;
     border: 2px solid black;
     border-radius: 20px;
     box-shadow: 8px 8px black;
@@ -28,7 +32,7 @@ main {
 }
 
 .category-tag {
-    background: rgb(244, 208, 78);
+    background: var(--main-bg-color);
     text-decoration: none;
     font-weight: 900;
     font-size: 14px;
