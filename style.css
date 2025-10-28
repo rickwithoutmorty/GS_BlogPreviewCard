@@ -49,9 +49,19 @@ main {
     font-size: 24px;
 }
 
+.blog-text {
+    color: rgb(107, 107, 107);
+    font-size: 16px;
+}
+
 .userinfo {
     display: flex;
     align-items: center;
+}
+
+.userinfo p {
+    margin-left: 20px;
+    font-weight: 900;
 }
 
 footer .attribution {
