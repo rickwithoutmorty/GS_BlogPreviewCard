@@ -40,6 +40,11 @@ main {
     border-radius: 5px;
 }
 
+.publish-date {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+}
+
 .userinfo {
     display: flex;
     align-items: center;
