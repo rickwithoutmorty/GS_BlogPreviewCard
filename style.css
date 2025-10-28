@@ -1,9 +1,7 @@
 body {
     background: rgb(244, 208, 78);
     font-family: "Figtree", sans-serif;
-}
 
-#container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,12 +55,14 @@ main {
 .userinfo {
     display: flex;
     align-items: center;
+    margin-left: 0;
 }
 
-.userinfo p {
-    margin-left: 20px;
+.userinfo figcaption {
     font-weight: 900;
+    margin-left: 20px;
 }
+
 
 footer .attribution {
     font-family: sans-serif;
