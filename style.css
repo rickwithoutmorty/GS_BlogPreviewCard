@@ -23,6 +23,11 @@ main {
     padding: 20px
 }
 
+.illustration {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 .userinfo {
     display: flex;
     align-items: center;
