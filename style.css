@@ -11,12 +11,22 @@ body {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 522px;
     width: 384px ;
-
-    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px black;
+    background-color: white;
+    padding: 20px
 }
 
+.userinfo {
+    display: flex;
+    align-items: center;
+}
 
 footer .attribution {
     font-family: sans-serif;
