@@ -1,5 +1,6 @@
 body {
     background: rgb(244, 208, 78);
+    font-family: "Figtree", sans-serif;
 }
 
 #container {
@@ -31,7 +32,6 @@ main {
 .category-tag {
     background: rgb(244, 208, 78);
     text-decoration: none;
-    font-family: "Figtree", sans-serif;
     font-weight: 900;
     font-size: 14px;
     color: black;
@@ -41,8 +41,12 @@ main {
 }
 
 .publish-date {
-    font-family: "Figtree", sans-serif;
+    font-size: 14px ;
     font-weight: 500;
+}
+
+.blog-title {
+    font-size: 24px;
 }
 
 .userinfo {
